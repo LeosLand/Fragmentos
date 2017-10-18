@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.leosland.edgar.fragments.MainActivity">
+
+    <fragment android:name="com.leosland.edgar.fragments.TopFragment"
+        android:id="@+id/fragment_top"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="match_parent"
+        tools:layout_editor_absoluteX="match_parent"
+        tools:layout="@layout/fragment_top" />
+    <fragment android:name="com.leosland.edgar.fragments.BottomFragment"
+        android:id="@+id/fragment_bottom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="match_parent"
+        tools:layout_editor_absoluteX="match_parent"
+        tools:layout="@layout/fragment_bottom" />
+
+</LinearLayout>
